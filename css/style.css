@@ -7,9 +7,14 @@
 
 body{
     background-color: #1f2937;
-    color: #ffffff
+    color: #ffffff;
+    /* font-family: "Roboto", sans-serif; */
 }
 
+header{
+    color: #F9FAF8;
+    font-size: 24px;
+}
 .primary-navigation{
     width: 800px;
     margin: 0 auto;
@@ -30,7 +35,7 @@ ul{
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #F9FAF8;
 }
 
 a:hover{
@@ -39,7 +44,7 @@ a:hover{
 
 button{
     color: #ffffff;
-    background-color: #3b82f6;
+    background-color: #3882f6;
     width: 7rem;
     height: 2rem;
     font-size: 16px;
@@ -63,12 +68,23 @@ button:hover{
     display: flex;
     flex-direction: row;
     gap: 40px;
+    background-color: #1F2937;
 }
 
 .hero-text-area{
     padding: 10px;
 }
 
+.hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-content{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .hero-image{
     width: 240px;
@@ -145,4 +161,8 @@ button:hover{
 .sign-up-button{
     margin-inline-end: 20px;
     margin-block-end: 20px;
+}
+
+.footer{
+    background-color: #1F2937;
 }
