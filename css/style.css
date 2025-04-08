@@ -1,2 +1,162 @@
 /*Style sheet */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background-color: #1f2937;
+    color: #ffffff
+}
+
+.primary-navigation{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #3b82f6;
+}
+
+button{
+    color: #ffffff;
+    background-color: #3b82f6;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2rem;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.wrapper{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-block{
+     width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+}
+
+.hero-text-area{
+    padding: 10px;
+    border: 2px solid #3b82f6;
+}
+
+
+.hero-image{
+    width: 240px;
+    border: 2px solid #3b82f6;
+}
+
+.hero-button {
+    margin-block-start: 20px;
+    margin-block-start: 10px;
+    margin-inline-start: 20px;
+}
+
+.content-block{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-block-start: 25px;
+
+}
+
+.card{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card >img{
+    width: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #3b82f6;
+    display: flex; 
+}
+
+.card > p{
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #3b82f6;
+    display: flex;
+    padding: 10px;
+    flex:1;
+}
+
+.quote-block{
+    margin-block: 35px;
+    padding: 20px;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+}
+
+.quote-text{
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center;
+}
+
+.quoter-name{
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.call-to-action{
+    padding-block-start: 25px;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-text{
+    margin: 0;
+    padding: 0;
+    margin-inline-start: 20px;
+    margin-block-end: 20px;
+}
+
+.sign-up-button{
+    margin-inline-end: 20px;
+    margin-block-end: 20px;
+}
