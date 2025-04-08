@@ -1,3 +1,3 @@
 # landing-page-TOP
-Landking Page for The Odin Project
+Landing Page for The Odin Project
 
