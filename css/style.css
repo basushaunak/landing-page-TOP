@@ -40,8 +40,6 @@ a:hover{
 button{
     color: #ffffff;
     background-color: #3b82f6;
-    border: 2px solid #3b82f6;
-    border-radius: 10px;
     width: 7rem;
     height: 2rem;
     font-size: 16px;
@@ -60,24 +58,20 @@ button:hover{
 }
 
 .hero-block{
-     width: 90%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: 40px;
-    border: 2px solid #3b82f6;
-    border-radius: 10px;
 }
 
 .hero-text-area{
     padding: 10px;
-    border: 2px solid #3b82f6;
 }
 
 
 .hero-image{
     width: 240px;
-    border: 2px solid #3b82f6;
 }
 
 .hero-button {
@@ -105,8 +99,6 @@ button:hover{
 .card >img{
     width: 180px;
     object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid #3b82f6;
     display: flex; 
 }
 
@@ -114,8 +106,6 @@ button:hover{
     text-align: center;
     font-size: 14px;
     color: #ffffff;
-    border-radius: 10px;
-    border: 2px solid #3b82f6;
     display: flex;
     padding: 10px;
     flex:1;
@@ -124,8 +114,6 @@ button:hover{
 .quote-block{
     margin-block: 35px;
     padding: 20px;
-    border: 2px solid #3b82f6;
-    border-radius: 10px;
 }
 
 .quote-text{
@@ -141,8 +129,6 @@ button:hover{
 
 .call-to-action{
     padding-block-start: 25px;
-    border: 2px solid #3b82f6;
-    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
