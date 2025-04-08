@@ -1,0 +1,18 @@
+<logo> Services Contact Us About
+"This website is awesome"
+[details]
+<button signup>
+<image>
+
+Some random information.
+<image>		image		image		image
+text		text		text		text
+
+
+some quote
+
+call to action! It's time <button>
+
+
+
+Copyright (C) blah blah blah
