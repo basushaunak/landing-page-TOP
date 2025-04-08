@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #1f2937;
+    background-color: #242424;
     color: #ffffff;
     /* font-family: "Roboto", sans-serif; */
 }
@@ -63,7 +63,7 @@ button:hover{
 }
 
 .hero-block{
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -91,7 +91,6 @@ button:hover{
 }
 
 .hero-button {
-    margin-block-start: 20px;
     margin-block-start: 10px;
     margin-inline-start: 20px;
 }
@@ -174,8 +173,8 @@ button:hover{
 .call-to-action-text{
     margin: 0;
     padding: 0;
-    margin-inline-start: 20px;
-    margin-block-end: 20px;
+    padding-inline-start: 20px;
+    padding-block-end: 20px;
 }
 
 .sign-up-button{
